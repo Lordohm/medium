@@ -1,0 +1,51 @@
+/*======================== 
+Estutura / layout
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#header {
+    background: #c5e3fe;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    position: fixed;
+}
+
+#menu li {
+    float: left;
+    padding: 0 1rem;
+
+    a {
+        text-decoration: none;
+        /* padding: 0.5rem 1rem; */
+        border-radius: 1.8rem;
+    }
+
+    a:hover {
+        color: #93c8f7;
+    }
+}
+
+ul#menu {
+    list-style-type: none;
+    float: right;
+}
+
+
+.container {
+    width: 1145px;
+    margin: 0 auto;
+    padding: 1.4rem 0;
+}
+
+.emphasis {
+    padding: 0.5rem 1rem;
+    background: black;
+    color: white;
+}
