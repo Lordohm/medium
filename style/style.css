@@ -58,15 +58,49 @@ ul#menu {
 #emphasis {
     background: #c5e3fe;
     border-bottom: 1px solid gray;
-    margin: 4.7rem 0;
+    margin: 4.7rem 0 0;
+
+    button {
+        display: block;
+        margin-top: 1.5rem;
+        border-radius: 1.5rem;
+        border: 1px solid black;
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+        background-color: white;
+    }
 }
 
 #area-emphasis {
     width: 55%;
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid rebeccapurple; */
+}
 
-    h1 {
-        font-size: 4rem;
-        /* margin-bottom: 1rem; */
-    }
+.emphasis-background {
+    background: url(/img/fundo-topo.png) no-repeat right bottom;
+    background-size: 20rem;
+}
+
+#tendencias {
+    padding-top: 0.8rem;
+}
+
+
+
+/* Tipografia */
+h1 {
+    font-size: 4rem;
+    font-weight: 100;
+    margin: 0;
+    letter-spacing: -0.1rem;
+}
+
+h2 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+.titulo-tendencia {
+    background: url(/img/icone-tendencia.png) no-repeat left /contain;
+    padding: 0.2rem 0 0.2rem 2rem;
 }
