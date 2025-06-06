@@ -13,8 +13,11 @@ body {
 #header {
     background: #c5e3fe;
     border-bottom: 1px solid gray;
-    width: 100%;
+    /* width: 100%; */
     position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 #menu li {
@@ -48,4 +51,22 @@ ul#menu {
     padding: 0.5rem 1rem;
     background: black;
     color: white;
+}
+
+/* Área de emphasis */
+
+#emphasis {
+    background: #c5e3fe;
+    border-bottom: 1px solid gray;
+    margin: 4.7rem 0;
+}
+
+#area-emphasis {
+    width: 55%;
+    border: 1px solid rebeccapurple;
+
+    h1 {
+        font-size: 4rem;
+        /* margin-bottom: 1rem; */
+    }
 }
