@@ -85,6 +85,12 @@ ul#menu {
     padding-top: 0.8rem;
 }
 
+#tendencias::after {
+    content: " ";
+    clear: both;
+    display: table;
+}
+
 .item-tendencia {
     /* border: 1px solid green; */
     width: 26%;
@@ -106,6 +112,11 @@ ul#menu {
 footer {
     background: #c5e3fe;
     border-top: 1px solid gray;
+
+    .container {
+        height: 10vw;
+        padding: 2rem;
+    }
 }
 
 
